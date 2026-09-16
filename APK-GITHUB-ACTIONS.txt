@@ -1,0 +1,14 @@
+# GitHub Actions ile APK
+
+Workflow dosyası:
+`.github/workflows/android.yml`
+
+GitHub'a yükledikten sonra:
+1. Repository > Actions
+2. Android APK
+3. Run workflow
+4. İşlem bitince başarılı çalışmaya gir
+5. Artifacts bölümünden `odeme-kolay-apk` dosyasını indir
+6. ZIP'i aç ve `app-debug.apk` dosyasını telefona kur
+
+Not: APK debug sürümüdür. Play Store için ayrıca imzalı release/AAB hazırlanmalıdır.
